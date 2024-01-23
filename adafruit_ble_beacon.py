@@ -106,6 +106,7 @@ class iBeaconAdvertisement(_BeaconAdvertisement):
     match_prefixes = (
         struct.pack(
             "<BHBB",
+
             _MANUFACTURING_DATA_ADT,
             _APPLE_COMPANY_ID,
             _IBEACON_TYPE,
